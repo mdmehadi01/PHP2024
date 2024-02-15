@@ -1,0 +1,124 @@
+.img-sec{
+ font-family: "Marcellus", Sans-serif;
+ font-weight: 500px;
+ font-size: 5em;
+}
+.img-sec1{
+    font-family: "Marcellus", Sans-serif;
+    font-weight: 500px;
+    font-size: 4em;
+   }
+   .img-sec2{
+    font-family: "Marcellus", Sans-serif;
+    font-weight: 400px;
+    font-size: 20px;
+   }
+   .nature{
+    background: #F0F5FA;
+    color: #360000;
+   }
+   .nature1{
+    width: 500;
+    font-size: 2.5em;
+   }
+   .np{
+    padding-left: 15em;
+    padding-right: 15em;
+    color: #212225;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.btn1{
+    border-width: 1px;
+        border-color: #030303;
+        color: #030303;
+        background: transparent;
+        padding:2px 20px 2px 20px;
+        
+}
+.btn1:hover{
+    background:#269397;
+    color: rgb(253, 253, 253);
+    border-color: #269397;
+    text-align: center;
+    transition: all .3s;
+}
+
+.owl-carousel{
+    padding-left:120px;
+    padding-right:120px;
+    background: #F0F5FA;
+    
+}
+.item{
+    height: 320px;
+    object-fit: cover;
+    width: 400px;
+   border: solid;
+   border-width: 10px 10px 10px 10px;
+   border-color: white;
+}
+.explore{
+    background: #F0F5FA;
+    justify-content: center;
+    align-items: center;
+}
+.up{
+    margin-top: -20px;
+}
+.cus-explore{
+    padding: 50px 0px 50px 120px;
+}
+.cus1-exploer{
+    margin-left: 230px;
+}
+.btn2{
+        border-width: 1px;
+        border-color: #360000;
+        border-radius: 5px;
+        color: #360000;
+        margin-top: 70px;
+        background: transparent;
+        padding: 8px 20px 8px 20px;
+
+    }
+.btn2:hover{
+        background:#360000;
+        color: rgb(253, 253, 253);
+        border-color: #360000;
+}
+.client-left{
+    box-shadow: 0 4px 8px 0 rgb(169, 177, 180), 0 6px 20px 0 rgb(187, 195, 197);
+    padding: 20px;
+    
+}
+.client-left img{
+    opacity: 0.6;
+}
+.client-left img:hover{
+    opacity: 2.0;
+}
+.container{
+    padding-bottom: 50px;
+}
+.Superior {
+    padding-top: 20px;
+}
+.Villa{
+    padding-top: 20px;
+} 
+.Thai{
+    padding-top: 20px;
+}
+.resort{
+    height: 800px;
+    width: 100%;
+    background: url("image/narkl.jpg");
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+ 
