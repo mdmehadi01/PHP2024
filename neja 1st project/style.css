@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(224, 214, 245);
+}
+.contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60vh;
+   
+}
+.logbox{
+    border: 10px solid rgb(236, 245, 224);
+    margin: 60px;
+    padding: 60px;
+    border-radius: 15px;
+    background: rgb(247, 245, 247);
+  
+}
+.logbox input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #eeebeb;
+    border-radius: 5px;
+    outline: none;
+}
+.logbox button{
+    width: 80%;
+    height: 8vh;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(245, 245, 250);
+    background: rgb(43, 43, 238);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 13px 0;
+}
+.login-from{
+    display: flex;
+    justify-content: center;
+}
+.login-from a{
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-decoration: none;
+
+}
+.login-from a:hover{
+    text-decoration: underline;
+    color: rgb(5, 150, 41);
+}
+.login-from hr{
+    border: 1px solid rgb(228, 225, 225);
+    margin-bottom: 15px;
+}
+.login-from .create-btn a {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #36a420;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 5px;}
