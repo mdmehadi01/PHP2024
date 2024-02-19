@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(239, 239, 255);
+    margin: 0;
+
+}
+/*p{
+    color: rgb(36, 6, 145);
+}
+h1{
+    color: brown;
+    text-align: center;
+}
+/* Content,Padding,border,margin*/
+
+
+.box-1{
+background-color: aquamarine;
+border-right:5px rgb(57, 9, 119) solid;
+border-left:5px rgb(57, 9, 119) solid;
+border-top:5px rgb(57, 9, 119) solid;
+border-bottom:5px rgb(57, 9, 119) solid;
+
+margin: 15px;
+}
+/*aothoba ak sate lekha jai*/
+.raw{
+    border: green solid;
+    padding: 20px;
+    margin: 15px;
+    /*aothaba alada vabe o kora jabe*/
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+/*sudu akta element ka target korar jonno necher kaj korte hoi*/
+.box-1 p{
+    font-family: tahoma;
+    font-style: italic;
+    text-align: justify;
+    padding: 20px;
+}
+.box-1 h1{
+        /*underline dewar jonno*/
+text-decoration: underline;
+/*akta thake ar akta word faka korte*/ 
+word-spacing: 1em
+}
+.box-2 p{
+    border: black solid;
+    padding: 2px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 15px;
+/*lekhar line soman korte text-aline:justify deta hoi*/
+text-align: justify;
+}
+.box-2 h1{
+    text-align: center;
+    color: brown;
+    text-decoration:underline
+}
+.categories{
+    border: 5px rgb(149, 57, 235) solid;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgb(246, 249, 250);
+}
+.categories h2{
+    text-align: center;
+    color: rgb(24, 5, 129);
+    text-transform: uppercase;
+}
+.categories ul{
+padding: 15px;
+list-style:square;
+list-style: none;
+}
+.categories ul li{
+    border-bottom: 2px dotted;
+    list-style-image: url('../image/download.png');
+}
+a{
+    color: #f36615;
+}
+a:hover{
+    text-decoration: none;
+    color: #e60d9d;
+}
+a:active{
+    color: #013f11;
+}
+/*a:visited{
+    color: rgb(3, 11, 121);*/
+    /*Registation page ar login ar kaj ar jonno necher kaj korte hoi*/
+    .my-form{
+        padding: 20px;
+    }
+    .my-form .form-group{
+        padding-bottom: 15px;
+    }
+    .my-form input[type="text"]{
+        padding: 10px;
+        width: 100%;
+    }
+    .my-form input[type="password"]{
+        padding: 10px;
+        width: 100%;
+    }
+    .my-form input[type="email"],.my-form textarea{
+        padding: 10px;
+        width: 100%;}
+        .button{
+            background-color: #05af2f;
+            color: beige;
+            border: none;
+            padding: 10px;
+            width: 25%;
+            border-radius: 25px;
+        }
+        .button:hover{
+            background-color: #770681;
+            color: red;
+        }
+        /*6ep ses*/
+

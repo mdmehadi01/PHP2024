@@ -1,0 +1,18 @@
+h2{
+    color: rgb(241, 13, 13);
+    text-align: center;
+}
+p{
+    color: rgb(141, 238, 149);
+    background-color: blueviolet;
+}
+body{
+    background-color: rgb(205, 241, 241);
+font-size:14px;
+font-weight:normal;
+font-family: Arial, Helvetica, sans-serif;
+
+line-height: 1.6em;
+margin: 0;
+/* Content,Padding,border,margin*/
+}
