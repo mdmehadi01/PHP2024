@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    /*faka gaigha newar jonno lekhar moddhe*/
+   /*grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    /*Aothoba*/
+    grid-gap:0.5em;
+
+}
+.grid div{
+    background: rgb(114, 122, 241);
+    padding: 20px;
+}
+.grid div:nth-child(odd){
+    background: rgb(10, 223, 24);
+}
