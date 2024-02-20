@@ -1,0 +1,50 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .2fr 1fr 1.5fr .3fr;
+    height: 100vh;
+    grid-template-areas: "nav nav nav nav"
+    "sidebar main main main"
+    "sidebar left left right"
+    "sidebar footer footer footer";
+    text-align:center;
+}
+nav{
+    background-color: rgb(248, 101, 15);
+    grid-area: nav;
+}
+main{
+    background-color: rgb(151, 151, 238);
+    grid-area: main;
+}
+#sidebar{
+    background: rgb(240, 140, 140);
+    grid-area: sidebar;
+}
+#left{
+    background: rgb(250, 98, 144);
+    grid-area: left;
+}
+#right{
+    background-color: blueviolet;
+    grid-area: right;
+}
+footer{
+    background-color: rgb(243, 51, 51);
+    grid-area: footer;
+}
+/*mobile a website ar map sotick vabe dekhar jonno necher kaj korte hoi*/
+@media only screen and (max-width:750px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .4fr 2fr 1.5fr 1.5fr 1fr .6fr;
+        grid-template-areas: 
+    "nav"
+    "sidebar"
+    "main"
+    "left"
+    "right"
+    "footer";
+       }
+}
