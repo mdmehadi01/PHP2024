@@ -1,0 +1,154 @@
+.navbar  .navbar-nav .nav-item a{
+    color: #0C4464;
+}
+.navbar  .navbar-nav .nav-item a:hover{
+    color: #045CB4;
+}
+.navbar  .navbar-nav .nav-item a:active{
+    color: #045CB4 !important;
+}
+
+i{
+    color: #0C4464;
+    font-size: 20px;
+}
+.navbar{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.hero-sec{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #B0E48C; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #B0E48C , #95CA86);
+}
+.btn{
+    background: none !important;
+    border-width: 2px;
+    border-color: #fff;
+}
+.btn:hover{
+    background:#fff !important;
+    color: blue;
+    border-color: #fff;
+}
+.col-lg-6{
+    display: flex;
+}
+.nat{
+    color: #95CA86;
+    padding-top: 40px;
+}
+.facility{
+    background-color: #B0E48C;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+iframe{
+    height: 400px;
+}
+.product{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #F6F7F6;
+}
+.ingredients{
+    margin-top: 60px;
+}
+.info{
+  
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.info-left{
+    background: #F8F6F6;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.info-Right{
+    margin-top: 20px;
+    background: #F8F6F6;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.clients{
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: #B0E48C;
+}
+.client-left{
+    margin-top: 50px;
+    background: #26516A;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border-radius: 10px 10px 10px 50px;
+}
+.client-left img{
+    border-style: solid;
+    border-color: #54595F;
+    border-width: 6px;
+    border-radius: 50%;
+    width: 20%;
+}
+.client-left h5{
+    margin-top: -60px;
+}
+.order{
+    background: #0C4464;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.cus1-order{
+    display: flex;
+    width: 100%;
+
+}
+.btn1{
+    width: 35%;
+    height: 35px;
+    margin-top: 50px;
+    background:#fff;
+    border-width: 2px;
+    color: #B0E48C;
+    border-color: #fff;
+    border-radius: 15px;
+}
+.btn1:hover{
+    background:#B0E48C;
+ 
+    color:#fff;
+    border-color: #fff;
+}
+.btn2{
+    width: 25%;
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background:none !important;
+    border-width: 1px;
+    color: #fff;
+    border-color: #fff !important;
+    border-radius: 15px;
+}
+.btn2:hover{
+    
+    background:#82be57 !important;
+  
+    color:#000;
+    border-color: #fff;
+}
+.coppyright{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
