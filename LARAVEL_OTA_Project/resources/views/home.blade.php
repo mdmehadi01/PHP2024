@@ -1,93 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  
-  <!-- Optional: Include Font Awesome for icons -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/style.css">
-
-
-
-  <title>Welcome to OTA</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid justify-content-between">
-      <a class="navbar-brand" href="#">LOGO</a>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Hotel
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Hotel-1</a></li>
-              <li><a class="dropdown-item" href="#">Ture</a></li>
-              <li><a class="dropdown-item" href="#">Pages</a></li>
-            </ul>
-          </li>
   
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Ture
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Ture-1</a></li>
-              <li><a class="dropdown-item" href="#">Ture</a></li>
-              <li><a class="dropdown-item" href="#">Pages</a></li>
-            </ul>
-          </li>
-  
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Pages
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Pages-1</a></li>
-              <li><a class="dropdown-item" href="#">Ture</a></li>
-              <li><a class="dropdown-item" href="#">Pages</a></li>
-            </ul>
-          </li>
-  
-        </ul>
-      </div>
-      <div class="d-flex">
-  
-        <!-- Image placeholder; replace src with your image URL -->
-        <img src="your-image-url-here" alt="Image" style="width: 40px; height: 40px; margin-right: 15px;">
-        <h6 >USA</h6>
-        <!-- "Sign in" Button -->
-       <!-- Replace the Sign in button with this Sign up button -->
-<button class="btn btn-outline-success me-2" type="button" >Sign Up</button>
+@include('header')
+       <!--hero section-->
+  <div class="hero col-lg12 col-md-12 col-sm-12 text-center text-white" style="height: 450px;"> 
+        <h1 class="custom-pt-45">BOOK A HOME ON AGODA HOMES</h1>
+   <h4>More spacious. More local. More of why you travel.</h4>
+</div>
 
-        
-        <!-- Cart Icon -->
-        <a href="#" class="fas fa-shopping-cart" style="font-size: 24px; color: #000; text-decoration: none;"></a>
+
+
+<!---Form section---->
+<div class="form-container">
+  <form>
+       <!-- Icon list -->
+<div class="container hero1">
+  <div class="row text-center ">
+   <div class="col">
+     <i class="fas fa-hotel">Hotels & Homes</i> <!-- FontAwesome hotel icon -->
+   </div>
+   <div class="col">
+     <i class="fas fa-key">Private State</i> <!-- Assuming a key icon for Private State -->
+   </div>
+   <div class="col">
+     <i class="fas fa-building">Public State</i> <!-- Assuming a building icon for Public State -->
+   </div>
+   <div class="col">
+     <i class="fas fa-plane"></i> <!-- FontAwesome plane icon -->
+   </div>
+ </div>
+</div>
+    <!--icon end-->
+    <br>
+
+
+    
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-12">
+          <div class="input-group">
+            <span class="input-group-text"><i class="fa fa-search"></i></span>
+            <input type="text" class="form-control" placeholder="Enter a destination or property" name="FirstName">
+          </div>
+        </div>
       </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    
+      <div class="row g-2 align-items-center">
+        <!-- 'g-2' adds a gap between grid items -->
+      
+        <div class="col-4"> <!-- Adjusted from col-6 to col-4 to fit three items in one row -->
+          <label class="visually-hidden" for="inlineFormInputGroupUsername1">Username</label>
+          <div class="input-group">
+            <div class="input-group-text">@</div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername1" placeholder="Username">
+          </div>
+        </div>
+      
+        <div class="col-4"> <!-- Adjusted from col-6 to col-4 to fit three items in one row -->
+          <label class="visually-hidden" for="inlineFormInputGroupUsername2">Username</label>
+          <div class="input-group">
+            <div class="input-group-text">@</div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+          </div>
+        </div>
+      
+        <div class="col-4"> <!-- Changed from col-md-6 to col-4 to make it equal width and fit in one row -->
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+      </div>
+
+      
+      <div class="row-2 d-flex align-items-center" style="display: flex; gap: 10px;">
+        <button type="button" class="btn btn-danger btn-sm mt-3">Bundle & Save</button>
+        <span class="h6 pt-4 "><i class="fas fa-plus"></i> Add a hotel</span>
     </div>
-  </nav>
+    
+    <div class="text-center btn-1">
+      <button type="button" class="btn btn-success" style="font-size: 20px; padding: 10px 90px;">Search</button>
+    </div>
 
-  <div class="col-xl-12 col-md-12 col-sm-12 justify-content-center">
-
-    <h1>BOOK  A HOME ON AGODA HOMES</h1>
-    <h4>More spacious. Morelocal. More of why you travel.</h4>
-
-  </div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      </div>
+     
+    </div>  
+ 
+  </form>
+</div>
+  @include('footer')
 </body>
 </html>

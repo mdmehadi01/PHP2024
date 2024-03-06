@@ -32,3 +32,27 @@ Route::controller(PostController::class)->name('post.')->group(function () {
 Route::get('home', function () {
     return view('home');
 });
+Route::get('header', function () {
+    return view('header');
+});
+Route::get('singup', function () {
+    return view('singup');
+});
+Route::get('login', function () {
+    return view('login');
+});
+Route::get('footer', function () {
+    return view('footer');
+});
+Route::get('contact', function () {
+    return view('contact');
+});
+Route::get('checkout', function () {
+    return view('checkout');
+});
+Route::get('hoteldetails', function () {
+    return view('hoteldetails');
+});
+Route::get('hotellist', function () {
+    return view('hotellist');
+});

@@ -1,0 +1,199 @@
+.navbar {
+    padding: 40px 40px;
+  }
+.hero {
+    background-image: url('/images/bg.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+}
+/* Black overlay effect */
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(68, 67, 67, 0.5); 
+    z-index: 1;
+}
+/* Ensuring text is on top of the overlay */
+.hero h1, .hero h2,.hero h4 {
+    position: relative;
+    z-index: 2;
+}
+.custom-pt-45 {
+    padding-top:70px;
+}.fa-hotel{
+    color: green;
+}
+.form-container {
+        background-color: #F8F7F9;
+        border: 1px solid #FAFAFA47;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgb(103, 115, 119), 0 6px 20px 0 rgb(103, 115, 119);
+    padding-top:120px;
+    padding-bottom: 40px;
+    padding-left:50px;
+    padding-right: 50px;
+    margin: 20px;
+    margin-top: -200px;
+    position: relative;
+    z-index: 2;
+    }
+.h6{
+    color: green;
+}
+.hero1{
+    background-color: #ffffff;
+    margin-top: -150px;
+    padding:10px 40px;
+    border: 1px solid #FAFAFA47;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(103, 115, 119), 0 6px 20px 0 rgb(103, 115, 119);
+}
+.btn-1{
+    margin-bottom: -60px;
+}
+/*footer Section*/
+.bgimg {
+    margin-top: 120px;
+    margin-bottom: -90px;
+    background-image: url('/images/footerimg.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+    min-height: 50vh; 
+    width: 100%; 
+}
+.itms2{
+    width:100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.items{
+    width:100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+a{
+    color: #98A29F;
+}
+/*Footer sectiono2*/
+.ftr2{
+    color: #98A29F;
+}
+.icon-container .bi {
+    color: #98A29F;
+  }
+  /* full-screen-map*/
+.map{
+    height: 80vh;
+    width: 100%;
+    display: block;
+  }
+/*  contact form section  */
+.imgcon{
+    padding-left: 180px;
+    padding-right: 40px;
+}
+.tainer{
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.con22{
+    margin-top: -400px;
+    margin-left: -140px;
+    position: absolute;
+        z-index: 2;
+}
+/* checkout pafge css work*/
+.hero3{
+    background-image: url('/images/checkimg.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+}
+/* Black overlay effect */
+.hero3::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(20, 20, 20, 0.5); 
+    z-index: 1;
+}
+/* Ensuring text is on top of the overlay */
+.top-left-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 30px; /* Adjust as needed */
+    z-index: 2; /* Ensure it's above other content */
+}
+
+/*Hotel List section*/
+.hero4 {
+    background-image: url('/images/listimg.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+}
+/* Black overlay effect */
+.hero4::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(68, 67, 67, 0.5); 
+    z-index: 1;
+}
+/* Ensuring text is on top of the overlay */
+.hero4 h1{
+    position: relative;
+    z-index: 2;
+}
+
+.fa-hotel{
+    color: green;
+}
+.form-container2{
+        background-color: #F8F7F9;
+        border: 1px solid #FAFAFA47;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgb(103, 115, 119), 0 6px 20px 0 rgb(103, 115, 119);
+    padding-top:120px;
+    padding-bottom: 40px;
+    padding-left:50px;
+    padding-right: 50px;
+    margin: 20px;
+    margin-top: -140px;
+    position: relative;
+    z-index: 2;
+    }
+.h6{
+    color: green;
+}
+.hero6{
+    background-color: #ffffff;
+    margin-top: -100px;
+    padding:10px 40px;
+    border: 1px solid #FAFAFA47;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(103, 115, 119), 0 6px 20px 0 rgb(103, 115, 119);
+}
+.btn-2{
+   
+    margin-bottom: -140px;
+}
